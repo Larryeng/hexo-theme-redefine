@@ -14,9 +14,6 @@ $aplayer-height-lrc= $aplayer-height + $lrc-height - 6
   position relative
   transition opacity 0.3s ease
 
-  +redefine-mobile() {
-    display none
-  }
 
   &.hide {
     opacity 0
@@ -763,13 +760,7 @@ if (hexo-config('plugins.aplayer.enable') == true && hexo-config('plugins.aplaye
     height $right-bottom-tools-width - 2px !important
     border-radius $right-bottom-tools-border-radius - 0.8px !important
 
-    +redefine-tablet() {
-      display none
-    }
 
-    +redefine-mobile() {
-      display none
-    }
 
   }
 
