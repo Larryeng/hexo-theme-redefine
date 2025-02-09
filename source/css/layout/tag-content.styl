@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @import '../common/variables'
 
 $tag-name-font-size = 3rem
@@ -28,3 +29,35 @@ $tag-name-font-size = 3rem
     padding-bottom 20px
     margin-bottom $spacing-unit
     border-bottom 1px solid var(--shadow-color-1)
+=======
+@require '../common/variables'
+
+$tag-name-font-size = 3rem
+
+.tag-container
+  redefine-container(
+    false,
+    0,
+    0,
+    30px,
+    30px
+  )
+
+  .tag-name
+    color var(--second-text-color)
+    font-size $tag-name-font-size
+
+    i
+      color var(--second-text-color)
+
+    +redefine-tablet()
+      font-size: $tag-name-font-size * 0.9
+
+    +redefine-mobile()
+      font-size: $tag-name-font-size * 0.8
+
+    font-weight 600
+    padding-bottom 20px
+    margin-bottom $spacing-unit
+    border-bottom 1px solid var(--shadow-color-1)
+>>>>>>> 54b89c90b5e37ed2788d4f4801fdecc795f77e08
