@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 const audioList = [];
 const isFixed = theme.plugins.aplayer.type == "fixed";
 const isMini = theme.plugins.aplayer.type == "mini";
@@ -30,7 +29,6 @@ if (isMini) {
   });
   document.querySelector(".aplayer-icon-lrc").click();
 }
-=======
 (function() {
   const audioList = [];
   const isFixed = theme.plugins.aplayer.type === "fixed";
@@ -64,4 +62,3 @@ if (isMini) {
     document.querySelector(".aplayer-icon-lrc").click();
   }
 })();
->>>>>>> 54b89c90b5e37ed2788d4f4801fdecc795f77e08
